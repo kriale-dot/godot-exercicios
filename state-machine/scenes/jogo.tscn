@@ -8,3 +8,4 @@
 [node name="TileMapLayer" parent="." unique_id=659067317 instance=ExtResource("1_7bb4d")]
 
 [node name="Jogador" parent="TileMapLayer" unique_id=1006750332 instance=ExtResource("2_sq8yp")]
+position = Vector2(105, 21)
