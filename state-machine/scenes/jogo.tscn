@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://7xuwpjbr4flj"]
+
+[ext_resource type="PackedScene" uid="uid://c3mxsspsybkk8" path="res://scenes/plataforma.tscn" id="1_7bb4d"]
+[ext_resource type="PackedScene" uid="uid://fcssm53mlla7" path="res://entities/jogador.tscn" id="2_sq8yp"]
+
+[node name="Jogo" type="Node2D" unique_id=633666060]
+
+[node name="TileMapLayer" parent="." unique_id=659067317 instance=ExtResource("1_7bb4d")]
+
+[node name="Jogador" parent="TileMapLayer" unique_id=1006750332 instance=ExtResource("2_sq8yp")]
